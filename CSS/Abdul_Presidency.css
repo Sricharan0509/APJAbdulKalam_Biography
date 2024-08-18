@@ -1,0 +1,170 @@
+body {
+    margin:0;
+    background-color:rgb(255, 242, 225);
+}
+
+.title {
+    background-color: rgb(220, 78, 35);
+    top:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.top-menu {
+    position:fixed;
+    width: 100%;
+}
+.main-title h1{
+    font-family:'REM',sans-serif;
+    font-weight: bolder;
+    margin: 0.5em auto;
+    font-size: 2em;
+    letter-spacing: 0.3em;
+}
+
+.caption{
+    font-family:'Jost',sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 1.19em;
+    font-weight:bolder;
+    letter-spacing:0.4em;
+    background-color: white;
+    width: 100%;
+}
+
+
+.nav-links ul {
+    margin-top: 0;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+
+}
+
+.nav-links li a, .nav-links li {
+    color: white;
+    list-style:none;
+    text-transform: uppercase;
+    font-weight:700 ;
+    font-size: 1em;
+    line-height: 28px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration:none;
+    font-family: 'Jost',sans-serif;
+    padding:0 0.5em;
+}
+
+.nav-links a:hover {
+    color:black;
+}
+
+.main-content {
+    padding:9em 0 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content .main-head {
+    margin: 0.5em auto 0.1em;
+    font-size: 1.9em;
+    letter-spacing: 0.15em;
+    text-align: center;
+    font-family: 'Jost',sans-serif;
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.1), 
+    0px 2px 4px rgba(0,0,0,0.1), 
+    0px 4px 8px rgba(0,0,0,0.1), 
+    0px 8px 16px rgba(0,0,0,0.09);
+}
+
+.main-content .main-head .APJ {
+    color: rgb(220, 78, 35);
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.1), 
+    0px 2px 4px rgba(0,0,0,0.1), 
+    0px 4px 8px rgba(0,0,0,0.1), 
+    0px 8px 16px rgba(0,0,0,0.09);
+
+}
+.main-content .main-head .Abdul {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.1), 
+    0px 2px 4px rgba(0,0,0,0.1), 
+    0px 4px 8px rgba(0,0,0,0.3), 
+    0px 8px 16px rgba(0,0,0,0.2);
+
+}
+.main-content .main-head .Kalam {
+    color: green;
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.1), 
+    0px 2px 4px rgba(0,0,0,0.1), 
+    0px 4px 8px rgba(0,0,0,0.1), 
+    0px 8px 16px rgba(0,0,0,0.09);
+
+}
+.main-content .main-pic {
+    margin: 0.1em auto 2em ;
+    border: 2px solid black;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.2), 
+            0px 2px 4px rgba(0,0,0,0.3), 
+            0px 4px 8px rgba(0,0,0,0.4), 
+            0px 8px 16px rgba(0,0,0,0.5);
+
+}
+
+.main-info p {
+    font-family: 'REM',sans-serif;
+    font-size:1.1em;
+    margin: 0.9em 3.0em;
+    text-align:justify;
+}
+
+.main-info h3 {
+    font-family:'Jost',sans-serif;
+    font-size: 1.7em;
+    margin:1.5em auto 1em 2em;
+    
+}
+.legacy{
+    display: grid;
+    grid-template-columns:3fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+
+}
+
+.legacy p{
+    grid-row-start: 1;
+    grid-row-end:3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+
+.legacy .img-1{
+    grid-row-start: 1;
+    grid-row-end:2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin:auto 3em auto 0;
+    border: 2px rgb(0, 0, 0) solid;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.2), 
+            0px 2px 4px rgba(0,0,0,0.3), 
+            0px 4px 8px rgba(0,0,0,0.4), 
+            0px 8px 16px rgba(0,0,0,0.5);
+}
+
+.legacy .img-2{
+    grid-row-start: 2;
+    grid-row-end:3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin:auto 3em auto 0;
+    border: 2px rgb(0, 0, 0) solid;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.2), 
+            0px 2px 4px rgba(0,0,0,0.3), 
+            0px 4px 8px rgba(0,0,0,0.4), 
+            0px 8px 16px rgba(0,0,0,0.5);
+}
